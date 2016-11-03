@@ -38,8 +38,7 @@ proj2.cc -o proj2.out -pthread -std=c++11
   
 * ***Make a call Call from Amy to Tom again, Successful!***  
   Intput: node p2_sample_client.js localhost Amy Tom  
-  Output: Call accepted!  
-  media from Amy: Hi there, this is Amy  
+  Output: Call accepted! Media from Amy: Hi there, this is Amy  
 
 ## Built With
 C++, Dual-stack sockets, POSIX Threads
