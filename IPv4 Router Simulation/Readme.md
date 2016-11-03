@@ -13,10 +13,12 @@ Please check and read the IPv4 Router Simulcation.pdf
 ## Deployment
 Download the zip file and place it in to a path you choose
 ## Compile and Test
-* Part:
-To Compile:
-
+Part1:
+* To Compile:
 ```
 g++ -o part1 part1.cc
 ```
-
+* To test:
+```
+./part1.out routes.txt arp.txt pdus.txt
+```
