@@ -6,8 +6,10 @@ Please check and read the UDP Streaming Media Proxy.pdf
 ## Structures
 * proj2.cc: The main program that handles registration (keeping track of  users' IP address), call setup (aceepting calls and notifying proxy users when they have an incoming call), and media passthrough (passing media packets between users who are engaged in a call).
 * sample_client.js:Test client for the project
+
 ## Deployment
 Download the zip file and place it in a path you want
+
 ## Compile and Run
 * To Compile:
 ```
