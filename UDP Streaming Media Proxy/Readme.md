@@ -20,16 +20,19 @@ proj2.cc -o proj2.out -pthread -std=c++11
 ./proj2.out
 ```
 ## Sample Test and Output
-
+* Register Amy
 input: node p2_sample_client.js localhost Amy
 return: Received ACK_REGISTER 
 
+* Call from Amy to Tom, failed
 input: node p2_sample_client.js localhost Amy Tom
 return: Call failed!
 
+* Register Tom
 intput: node p2_sample_client.js localhost Tom
 return: Received ACK_REGISTER
 
+* Call from Tom to Amy, Successful!
 intput: node p2_sample_client.js localhost Tom Amy
 return: Call accepted!
 
