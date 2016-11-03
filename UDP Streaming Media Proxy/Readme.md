@@ -21,25 +21,26 @@ proj2.cc -o proj2.out -pthread -std=c++11
 ```
 ## Sample Test and Output
 * Register Amy  
-  input: node p2_sample_client.js localhost Amy  
-  return: Received ACK_REGISTER   
+  -input: node p2_sample_client.js localhost Amy  
+  -return: Received ACK_REGISTER   
 
 * Call from Amy to Tom, failed  
-  input: node p2_sample_client.js localhost Amy Tom  
-  return: Call failed!
+  -input: node p2_sample_client.js localhost Amy Tom  
+  -return: Call failed!
 
 * Register Tom
-  intput: node p2_sample_client.js localhost Tom  
-  return: Received ACK_REGISTER  
+  -intput: node p2_sample_client.js localhost Tom  
+  -return: Received ACK_REGISTER  
 
 * Call from Tom to Amy, Successful!
-  intput: node p2_sample_client.js localhost Tom Amy  
-  return: Call accepted!  
+  -intput: node p2_sample_client.js localhost Tom Amy  
+  -return: Call accepted!  
   
 * Call from Amy to Tom again, Successful!  
-  intput: node p2_sample_client.js localhost Amy Tom  
-  return: Call accepted!  
-  media from Amy: Hi there, this is Amy  
+  -intput: node p2_sample_client.js localhost Amy Tom  
+  -return: Call accepted!  
+  -media from Amy: Hi there, this is Amy  
+
 ## Built With
 C++, Dual-stack sockets, POSIX Threads
 ## Contributer
